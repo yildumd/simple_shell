@@ -6,9 +6,6 @@
  *
  * Return: A pointer to the value of the environment variable.
  */
-
-#include "main.h"
-
 char *_getenv(char *env_var)
 {
    int i = 0;

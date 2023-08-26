@@ -15,6 +15,9 @@ int execute(char **argv)
 
     pid = fork();
 
+    if (pid == -1)
+	    perror("Fork");
+    
     if (pid == 0)
     {
         if (execve(argv[0], argv, environ) == -1)
