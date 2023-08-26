@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * main - Entry point for the custom shell program.
+ * @argc: The number of command-line arguments.
+ * @argv: An array of pointers to the
+ * command-line arguments.
+ *
+ * Return: The exit status of the shell program.
+ */
+
+int main(void)
+{
+	}
+	return (exit_status);
+}
